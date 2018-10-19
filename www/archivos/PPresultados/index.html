@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 405 760 --><!--version 8.7.0.25091 --><!--type html --><!--mainFolder ./ -->
+<html style=background-color:#000000;>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/><meta name="format-detection" content="telephone=no"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="msapplication-tap-highlight" content="no"/><title>Presentación1</title><link rel="apple-touch-icon-precomposed" href="data/apple-touch-icon.png"/><link rel="shortcut icon" type="image/ico" href="data/favicon.ico"/><style>body {background-color:#000000;}#spr0_c584e93 {display:none;}</style>
+
+    <style>
+		#playerView {
+			position:relative;
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+			-webkit-user-select:none;
+			-moz-user-select:none;
+			-webkit-touch-callout:none;
+			-webkit-user-drag:none;
+		}
+		#playerView * {
+			position:absolute;
+		}
+    </style>
+</head>
+<body>
+	<div id="preloader"></div>
+	<script src="data/player.js?465B0A0B"></script>
+    <div id="content"></div>
+    <script>
+		if (!ispring.compatibility.performRedirectIfNeeded("data/html5-unsupported.html"))
+		{
+			(function(startup){
+				function start(savedPresentationState)
+				{
+					var presInfo = "eNrdl0GPojAUgP+K6RmwLYUCe9JZnTUxqxnNXkZDWCkrOwwQQMnG8N+nFNwRYfCOB155fG1fP1qjF+ADC1xMBL9r0xmSsTbTZEJ0Kk+mk4k8U/Fcnz49qfMZKoAEMg7zkAOLQE0CR2BRDCVw4OlDlLBNnNgaNSjGkFPxGVgYIl0Cp3ISP/USxmxDoQq0sQZN9I1DDFgXEJaXt/LCb7PkxCTgAOtVPABxzLFU3HJExWI6zwlSJtKiVewLqaLDtEGTfjpu0uqDsbNbGj2g4366XOYn7DUL0QVcmWiPHDRhrR8+38JGf81pVxlf06yjjq9pr0GbD+jfDZr20+dTg36wyrN7SxPYT2eNuinsts1x8N7YweVZSUHB83GZd6754H4XSCDhqAMKsesvwLuOWlznrY/dgges6VU5wHUyZzdOA99lSPlbvrjDffYg3qf7f0I+NZQ+K2FicF4dVCBE4gFRKDEp0RA2iEYxxUxGqNhL5deEWMPrvl5nVZlbd4bVh9S9q/NbWfFFi9cshkiPTszSOrWpxvtVhX91eKuiV4U8quA7C7RtAXdawEO2YLQtqJ0W1CFbMNsWSKcFMmALOmxb0DotaEO2gNoW9E4L+pAt4LYF2mmBDtmC2rZgdFowhmyBtC2YnRbMIVnYi+VfwHpqLzbrl8XPZ3u5el7ZP15mc77sY5bF1m68G+d5rvhpnPjhnzQKTpkfhalyiN53Y27ivvN2tVpuF+vyz8xGdBkxecmcJCybm8jLcidhIyd0R5NTdowEsY2ioPwZ+AGH57MN";
+					PresentationPlayer.start(presInfo, "content", "playerView", onPlayerInit, savedPresentationState);
+					function onPlayerInit(player)
+					{
+						(player);
+					}
+				}
+		
+				if (startup)
+					startup(start);
+				else
+					start();
+			})();
+		};
+    </script>
+</body>
+</html>
