@@ -3,7 +3,7 @@
 		xmlns:gap="http://phonegap.com/ns/1.0"
 		id="ar.gob.cordoba.congreso-municipal-educacion"
 		versionCode = "1"
-		version="2.1.11" >
+		version="2.1.13" >
     <name>II Congreso Municipal de Educación</name>
     <description>
         Aplicación oficial del II Congreso Municipal de Educación organizado por la Municipalidad de Córdoba.
