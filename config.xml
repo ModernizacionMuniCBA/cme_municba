@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget xmlns="http://www.w3.org/ns/widgets"
 		xmlns:gap="http://phonegap.com/ns/1.0"
-		id="com.cme.municba"
+		id="ar.gob.cordoba.congreso-municipal-educacion"
 		versionCode = "1"
-		version="1.2.8" >
+		version="2.1.11" >
     <name>II Congreso Municipal de Educación</name>
     <description>
         Aplicación oficial del II Congreso Municipal de Educación organizado por la Municipalidad de Córdoba.
